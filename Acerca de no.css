@@ -1,0 +1,29 @@
+.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: auto;
+    overflow: auto;
+    box-shadow: 5px 50px 50px 5px;
+    background: rgb(rgb(0, 0, 0), rgb(0, 0, 0), blue);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    color: cadetblue;
+    background-color: aquamarine;
+}

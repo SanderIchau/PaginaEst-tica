@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    font-size: 1em;
+    line-height: 1.5em;
+
+    padding-top: 80px;
+}
+
+h1{
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align:center;
+    font-weight: 300;
+    color: rgb(235, 43, 85);
+}
+
+h2{
+    font-size: 1.3em;
+    line-height: 1.3em;
+    margin: 8px 0;
+    text-align: left;
+    font-weight: 150;
+    color: rgb(252, 193, 0);
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 35%;
+	height: 35;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    background: black;
+}
+.main-header nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+a:hover{
+    background: darkcyan;
+}
+
+.main-header nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header nav ul li ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header nav ul li:hover{
+    display: block;
+}
+
+#logo-header {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+#logo-header:hover {
+    color: rgb(255, 255, 255);
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: blueviolet;
+}
+
+
+
+/*aplicaremos diseño al contenido*/
+
+#main-content {
+    background: rgba(16, 226, 198, 0.904);
+    width: 70%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(rgb(197, 15, 137), rgb(125, 228, 30), rgba(10, 236, 161, 0.836)) ;
+}
+
+#main-content header,
+#main-content.content {
+    padding: 40px;
+}
+
+/*pie de la pagina */
+
+#main-footer{
+    background: rgb(0, 0, 0);
+    color: beige;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+#main-footer p{
+    margin: 0;
+}
+
+#margin-footer a{
+    color: aliceblue;
+}
+
